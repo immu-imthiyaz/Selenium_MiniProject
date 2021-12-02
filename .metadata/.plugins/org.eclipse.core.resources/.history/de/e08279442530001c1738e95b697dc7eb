@@ -1,0 +1,17 @@
+package com.org;
+
+public class Veltech extends College {
+	@Override
+	public void agri() {
+	System.out.println("horticulture");	
+	}
+	public static void main(String[] args) {
+		Veltech clg = new Veltech();
+		clg.aero();
+		clg.medical();
+		clg.Arts();
+		clg.agri();
+	}
+	
+
+}

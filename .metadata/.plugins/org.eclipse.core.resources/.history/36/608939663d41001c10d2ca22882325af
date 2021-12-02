@@ -1,0 +1,33 @@
+package com.org;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Maps_Col {
+	public static void main(String[] args) {
+		Map<Integer,String> m = new HashMap<Integer,String>();
+		m.put(10,"rajini");
+		m.put(40, "kamal");
+		m.put(50, null);
+		m.put(70, null);
+		m.put(30,"vikaram");
+		m.put(30, "jayamravi");
+		m.put(10, "vijay");
+		m.put(60, "ajith");
+		System.out.println(m);
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	}

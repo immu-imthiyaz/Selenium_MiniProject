@@ -1,0 +1,20 @@
+package com.org;
+
+public class String_Function {
+	public static void main(String[] args) {
+		
+		String s= "mohammed yousuf imthiyaz";
+		
+		
+		int length = s.length(2);
+		System.out.println();
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

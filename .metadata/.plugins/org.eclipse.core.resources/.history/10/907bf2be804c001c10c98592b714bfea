@@ -1,0 +1,23 @@
+package com.launch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class Launch_incognito {
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RIYAIMMU\\eclipse-workspace\\Selenium_Concepts\\Driver\\chromedriver.exe");
+		Thread.sleep(3000);
+		ChromeOptions obj = new ChromeOptions();
+		Thread.sleep(2000);
+		
+		obj.addArguments("Incognito");
+		Thread.sleep(2000);
+
+		WebDriver driver = new ChromeDriver(obj);
+		
+		driver.get("https://www.amazon.in/");
+		
+	}
+
+}

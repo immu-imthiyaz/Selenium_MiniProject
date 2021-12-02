@@ -1,0 +1,34 @@
+package pck2;
+
+public class Interpck_child implements Inter_pck1,Inter_pck2 {
+	@Override
+	public void wings3() {
+		// TODO Auto-generated method stub
+		System.out.println("fan1+2");
+		
+	}
+	@Override
+	public void fan() {
+		// TODO Auto-generated method stub
+		System.out.println("4+5");
+		
+	}
+	@Override
+	public void rod1() {
+		// TODO Auto-generated method stub
+		System.out.println("56");
+		
+	}@Override
+	public void cup2() {
+		// TODO Auto-generated method stub
+		System.out.println(72);
+	}
+	public static void main(String[] args) {
+		Interpck_child motor =new Interpck_child ();
+		motor.cup2();
+		motor.fan();
+		motor.rod1();
+		motor.wings3();
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.org;
+
+public class String_Function {
+	public static void main(String[] args) {
+		
+		String s= "Mohammed Yousuf Imthiyaz";
+		
+		
+		int length = s.length();
+		System.out.println(length);
+		
+		char charAt = s.charAt(23);		
+		System.out.println(charAt);
+		
+		
+		
+		
+		
+	}
+	
+
+}

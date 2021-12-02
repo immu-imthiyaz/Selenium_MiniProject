@@ -1,0 +1,19 @@
+package com.org;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Collection_Array {
+	public static void main(String[] args) {
+		List<Object> Aa = new ArrayList<object>();
+		Aa.add(30);
+		Aa.add(20);
+		Aa.add("hema");
+		Aa.add('f');
+		Aa.add(30);
+		System.out.println(Aa);
+		
+		
+	}		
+}

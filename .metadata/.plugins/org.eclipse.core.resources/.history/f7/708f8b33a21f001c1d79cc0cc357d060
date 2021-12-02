@@ -1,0 +1,29 @@
+package string;
+
+public class String_concept {
+	public static void main(String[] args) {
+		String s = "Hello Riya ";
+		int length = s.length();
+		System.out.println(s);
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	}
+	
+
+}

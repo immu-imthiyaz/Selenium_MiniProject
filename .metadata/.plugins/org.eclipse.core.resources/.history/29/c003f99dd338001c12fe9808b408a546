@@ -1,0 +1,31 @@
+package com.org;
+
+public class String_Function {
+	public static void main(String[] args) {
+		
+		String s= "Mohammed Yousuf Imthiyaz";
+		String s1= "mohammed yousuf Imthiyaz";
+		
+		int length = s.length();
+		System.out.println(length);
+		
+		char charAt = s.charAt(23);		
+		System.out.println(charAt);
+		
+		boolean equals = s.equals(s1);
+		System.out.println(equals);
+		
+		boolean equalsIgnoreCase = s.equalsIgnoreCase(s1);
+		System.out.println(equalsIgnoreCase);
+		
+		String upperCase = s.toUpperCase();
+		System.out.println(upperCase);
+		
+		
+		
+		
+		
+	}
+	
+
+}

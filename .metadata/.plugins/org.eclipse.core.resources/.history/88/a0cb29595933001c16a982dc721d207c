@@ -1,0 +1,13 @@
+package selenium_concept;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Lanch_amazon {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\RIYAIMMU\\eclipse-workspace\\selenium_concept\\Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.goindigo.in/");
+		
+	}
+}

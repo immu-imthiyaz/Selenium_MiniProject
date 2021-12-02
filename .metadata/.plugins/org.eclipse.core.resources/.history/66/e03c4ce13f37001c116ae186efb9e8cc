@@ -1,0 +1,15 @@
+package com.org;
+
+public class If_Else_Condition {
+	public static void main(String[] args) {
+		int salary = 100000;
+		if (salary >= 1000000) {
+			System.out.println("average pay");
+			
+		}
+		else {
+			System.out.println("lesser pay");
+		}
+	}
+
+}

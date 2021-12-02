@@ -1,0 +1,17 @@
+package stud_name;
+
+public class Test1 {
+	long t = 20;
+	float e = 10.5f;
+	public void t1() {
+       System.out.println(t+e);
+	}
+	public void e1() {
+		System.out.println("e1 = 50");
+
+	}
+	public void m1() {
+       System.out.println("m1 =30");
+	}
+
+}

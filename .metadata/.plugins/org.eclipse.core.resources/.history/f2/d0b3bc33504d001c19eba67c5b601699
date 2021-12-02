@@ -1,0 +1,25 @@
+package com.launch;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Launch_Amazon {
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RIYAIMMU\\eclipse-workspace\\Selenium_Concepts\\Driver\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles_9292c6cb7b394d30b2467b8f631090a7");
+		
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		
+//		driver.findElement(By.xpath("//a[text()='Mobiles']")).click();
+		
+//		driver.findElement(By.xpath("(//i[contains(@class,'checkbox')])[7]")).click();
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package string;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class Array_concept {
+	public static void main(String[] args) {
+List f =new ArrayList<Integer>();
+		
+	}
+
+}

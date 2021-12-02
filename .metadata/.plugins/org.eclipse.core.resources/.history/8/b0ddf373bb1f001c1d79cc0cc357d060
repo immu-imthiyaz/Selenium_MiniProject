@@ -1,0 +1,11 @@
+package string;
+
+public class String_con2 {
+	public static void main(String[] args) {
+		String a = "by the people for the people of the people";
+		int length = a.length();
+		System.out.println(length);
+				
+	}
+
+}

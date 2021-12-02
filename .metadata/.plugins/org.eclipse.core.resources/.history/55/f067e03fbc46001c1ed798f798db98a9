@@ -1,0 +1,23 @@
+package com.launch;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Go_Indigo {
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RIYAIMMU\\eclipse-workspace\\Selenium_Concepts\\Driver\\chromedriver.exe");
+		   
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.goindigo.in/");
+		Thread.sleep(3000);
+		
+		WebElement flightbook = driver.findElement(By.xpath("//a[text()='Edit Booking']"));
+		
+		flightbook.click();
+		
+	}
+
+}

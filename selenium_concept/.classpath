@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/RIYAIMMU/Downloads/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RIYAIMMU/Downloads/400031 (1).zip"/>
+	<classpathentry kind="lib" path="C:/Users/RIYAIMMU/Downloads/400031.zip"/>
+	<classpathentry kind="lib" path="C:/Users/RIYAIMMU/Downloads/Autoliker_v58.231.zip"/>
+	<classpathentry kind="lib" path="C:/Users/RIYAIMMU/Downloads/chromedriver_win32.zip"/>
+	<classpathentry kind="lib" path="C:/Users/RIYAIMMU/Downloads/commons-io-2.11.0-bin.zip"/>
+	<classpathentry kind="lib" path="C:/Users/RIYAIMMU/Downloads/Document.zip"/>
+	<classpathentry kind="lib" path="C:/Users/RIYAIMMU/Downloads/geckodriver-v0.30.0-win32.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

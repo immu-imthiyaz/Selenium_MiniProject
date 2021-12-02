@@ -1,0 +1,15 @@
+package com.org;
+
+public abstract class College {
+	public void aero() {
+		System.out.println("b.eng");
+	}
+	public void medical() {
+		System.out.println("MBBS");
+	}
+	public void Arts() {
+		System.out.println("Bsc");
+	}
+	public abstract void agri();
+
+}

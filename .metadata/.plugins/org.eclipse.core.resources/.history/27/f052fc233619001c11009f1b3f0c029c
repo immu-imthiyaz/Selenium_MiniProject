@@ -1,0 +1,5 @@
+package pck2;
+
+public interface Inter_pck2 {
+
+}

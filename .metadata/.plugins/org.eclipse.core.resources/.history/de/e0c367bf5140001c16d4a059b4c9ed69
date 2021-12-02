@@ -1,0 +1,18 @@
+package com.org;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Collection_Array {
+	public static void main(String[] args) {
+		List<Integer> Aa = new ArrayList<Integer>();
+		Aa.add(30);
+		Aa.add(20);
+		Aa.add(30);
+		System.out.println(Aa);
+		
+		
+	}		
+}

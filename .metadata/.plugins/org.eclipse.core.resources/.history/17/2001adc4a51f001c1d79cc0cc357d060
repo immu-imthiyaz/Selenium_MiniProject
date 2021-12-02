@@ -1,0 +1,45 @@
+package string;
+
+public class String_concept {
+	public static void main(String[] args) {
+		String s = "Hello Riya";
+		int length = s.length();
+		System.out.println(length);
+		
+		boolean equals = s.equals(s);
+		System.out.println(equals);
+		
+		boolean equalsIgnoreCase = s.equalsIgnoreCase(s);
+		System.out.println(equalsIgnoreCase);
+		
+		String upperCase = s.toUpperCase();
+		System.out.println(upperCase);
+		
+		String lowerCase = s.toLowerCase();
+		System.out.println(lowerCase);
+		
+		boolean startsWith = s.startsWith("HE");
+		System.out.println(startsWith);
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	}
+	
+
+}

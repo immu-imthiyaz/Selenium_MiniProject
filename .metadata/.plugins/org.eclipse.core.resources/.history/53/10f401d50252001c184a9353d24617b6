@@ -1,0 +1,48 @@
+package com.miniproject;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Mini_project {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RIYAIMMU\\eclipse-workspace\\Selenium_Concepts\\Driver\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("http://automationpractice.com/index.php");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.xpath("//a[@class='login']")).click();
+		
+		driver.findElement(By.id("email")).sendKeys("mdimmu07@gmail.com");
+		
+		driver.findElement(By.id("passwd")).sendKeys("110121@Riz");	
+		
+		driver.findElement(By.id("SubmitLogin")).click();	
+		
+	
+		driver.findElement(By.xpath("(//a[text()='T-shirts'])[2]")).click();
+		
+		driver.findElement(By.xpath("//img[contains(@title,'Short Sleeve')]")).click();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}	

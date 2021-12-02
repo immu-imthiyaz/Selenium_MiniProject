@@ -1,0 +1,28 @@
+package com.org;
+
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Linked_List {
+	public static void main(String[] args) {
+		List<Object> mi = new LinkedList<Object>();
+		
+		mi.add(10);
+		mi.add(20);
+		mi.add(null);
+		mi.add(30);
+		mi.add("immu");
+		mi.add("riya");
+		mi.add(10);
+		mi.add(null);
+		System.out.println(mi);
+		
+		
+		
+		
+		
+		
+		
+	}
+	}

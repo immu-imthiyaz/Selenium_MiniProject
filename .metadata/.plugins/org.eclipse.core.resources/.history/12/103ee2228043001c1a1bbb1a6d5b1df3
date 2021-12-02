@@ -1,0 +1,18 @@
+package com.launch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Launch_myntra {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RIYAIMMU\\eclipse-workspace\\Selenium_Concepts\\src\\com\\launch\\Launch_myntra.java");
+		WebDriver driver = new ChromeDriver();
+		Thread.sleep("2000");
+		driver.get("https://www.myntra.com/");
+		driver.manage().window().maximize();
+		
+		
+		
+	}
+
+}

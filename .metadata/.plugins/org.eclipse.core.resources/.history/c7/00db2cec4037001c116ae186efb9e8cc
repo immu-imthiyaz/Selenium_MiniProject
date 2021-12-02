@@ -1,0 +1,17 @@
+package com.org;
+
+public class If_Else_Condition {
+	public static void main(String[] args) {
+		int salary = 0;
+		if (salary >= 1) {
+			System.out.println("average pay");
+			
+		
+		}
+		else if (salary <= 1 & salary >= 11 ) {
+			System.out.println("med pay");
+			
+		}
+	}
+
+}
